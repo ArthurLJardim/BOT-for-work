@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Bot - simular sem salvar",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/bot.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dry-run"
+            ]
+        },
+        {
+            "name": "Bot - simular detalhado com relatorio",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/bot.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dry-run",
+                "--detalhado",
+                "--relatorio",
+                "${workspaceFolder}/relatorios/relatorio_bot.csv",
+                "--cobrancas",
+                "${workspaceFolder}/relatorios/cobrancas_bot.csv"
+            ]
+        },
+        {
+            "name": "Bot - atualizar planilha",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/bot.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Bot - simular checagem de email",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/bot.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dry-run",
+                "--checar-email"
+            ]
+        },
+        {
+            "name": "Bot - simular envio de emails",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/bot.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--dry-run",
+                "--cobrancas",
+                "${workspaceFolder}/relatorios/cobrancas_bot.csv",
+                "--enviar-emails"
+            ]
+        }
+    ]
+}

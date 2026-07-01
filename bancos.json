@@ -1,0 +1,14 @@
+{
+    "BRB": ["brb", "banco de brasilia", "banco de brasília"],
+    "BB": ["bb", "banco do brasil", "brasil"],
+    "ITAU": ["itau", "itaú", "ita"],
+    "NUBANK": ["nubank", "nu"],
+    "SICOOB": ["sicoob", "siccob"],
+    "SICREDI": ["sicredi"],
+    "BRADESCO": ["bradesco"],
+    "SANTANDER": ["santander"],
+    "CAIXA": ["caixa economica", "caixa econômica", "caixa economica federal", "caixa econômica federal", "cef"],
+    "INTER": ["inter"],
+    "C6": ["banco c6", "c6 bank"],
+    "STONE": ["stone", "stone instituicao de pagamento", "stone instituiÃ§Ã£o de pagamento"]
+}

@@ -1,0 +1,4 @@
+Ideias centrais do BOT: 
+Detectar quando um dos cliente do escritório me mandam mensagem e ver e responder eles que eu entrarei em contato, me informando quando algum mandar mensagem.
+
+Analisar a planilha de controle de documentos e cobrar aquelas empresas que não mandaram os documentos ainda. Quando as empresas mandarem os documentos, ele marca na planilha quais documentos não foram enviados e quais já foram. 

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.claude/
+
+# Perfil do navegador do WhatsApp Web (sessao autenticada, cache, cookies)
+whatsapp_profile/
+
+# Configuracao com credenciais reais
+email_config.json
+
+# Backups automaticos de planilha
+*.backup*.xlsx
+*.backup.xlsx
+
+# Entrada/relatorios gerados em runtime
+entrada_whatsapp/
+relatorios/
